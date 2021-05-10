@@ -1,6 +1,6 @@
 function Sidebar({ notes, addNotes, deleteNotes, activeNote, setActiveNote }) {
 
-    let sortedNotes = notes.sort((x, y) => y.noteLastModified - x.noteLastModified); // sort from most recent to the oldest modified nopte
+    let sortedNotes = notes.sort((x, y) => y.noteLastModified - x.noteLastModified); // sort from most recent to the oldest modified note
 
     return <div className = "app-sidebar">
         <div className = "app-sidebar-header">
